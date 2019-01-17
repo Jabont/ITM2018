@@ -53,6 +53,8 @@ a:hover{
 .icon{
 	display: inline-block;
 	margin:0 10px;
+	width: 60px;
+	border-radius: 60px;
 }
 .no-underline{
 	box-shadow: none;
@@ -73,6 +75,9 @@ a:hover{
 }
 .t-left{
 	text-align: left;
+}
+li{
+	margin-bottom: .5em;
 }
 li{
 	margin-bottom: .5em;
