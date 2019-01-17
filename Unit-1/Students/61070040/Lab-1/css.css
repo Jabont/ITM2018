@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background-image: url("bg.jpg");
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -24,27 +24,31 @@ body {
 img.profile {
 	width: 176px;
 	border-radius: 176px;
-	border: 8px solid #fff;
+	border: 5px solid #fff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
-	color: #444444;
-	text-shadow: 0px 2px 0px #fff;
+	color: #ffffff;
+	text-shadow: 0px 3px 0px black;
 }
 h3{
-	color: #828282;
-	text-shadow: 0px 2px 0px #fff;
+	color: #ffffff;
+	text-shadow: 0px 2px 0px black;
 }
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: rotate(10deg);
 }
 .bio{
+	color: black;
+	text-shadow: 0px 2px 0px whitesmoke;
+	font-size: 18px;
 	line-height: 1.5;
+	margin: 5px;
 }
 a{
 	text-decoration: none;
-	color: #333;
+	color: #e0e0e0;
 	box-shadow: 0px 1px 0px;
 }
 a:hover{
@@ -53,6 +57,8 @@ a:hover{
 .icon{
 	display: inline-block;
 	margin:0 10px;
+	height: 32px;
+	width: 32px;
 }
 .no-underline{
 	box-shadow: none;
