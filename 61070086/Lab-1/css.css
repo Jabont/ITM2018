@@ -1,5 +1,5 @@
 body {
-	background-image: url("background.png");
+	background: #fafafa;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -28,15 +28,13 @@ img.profile {
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
-p
-{
-	color: #ffffff;
-}
 h1 {
-	color: #00ff00;
+	color: #444444;
+	text-shadow: 0px 2px 0px #fff;
 }
 h3{
-	color: #00ffff;
+	color: #828282;
+	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
 	transform: rotate(20deg);
@@ -46,7 +44,7 @@ img.profile:hover {
 }
 a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #333;
 	box-shadow: 0px 1px 0px;
 }
 a:hover{
