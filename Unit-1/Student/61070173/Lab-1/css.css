@@ -15,7 +15,7 @@ body {
     display: inline-block;
     box-shadow: 1px 0px 0px black;
     padding-right: .1em;
-    animation: pipe .3s infinite alternate;
+    animation: pipe .5s infinite alternate;
 }
 @keyframes pipe{
 	from{box-shadow: 1px 0px 0px black;}
