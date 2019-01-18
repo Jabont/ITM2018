@@ -1,0 +1,14 @@
+body{
+    background-color: burlywood;
+}
+
+
+body div{
+    margin: 20px;
+    border: 20px;
+}
+
+.lead{
+    font-size: 24px;
+    color: black;
+}
