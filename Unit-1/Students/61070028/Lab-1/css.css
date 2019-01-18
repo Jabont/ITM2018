@@ -72,10 +72,10 @@ a:active {
 }
 .icon{
 	display: inline-block;
-	margin:0 0px;
+	margin:0 10px;
 }
 .no-underline{
-	border: 2px solid #FFF;
+	box-shadow: none;
 }
 .btn {
 	background-color: black;
