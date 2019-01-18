@@ -1,6 +1,7 @@
 body{
   background: url(pic/bg.jpg);
   font-family: sans-serif;
+  margin: 0;
 }
 
 .content {
