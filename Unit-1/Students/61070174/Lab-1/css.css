@@ -22,7 +22,7 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
+	width: 300px;
 	border-radius: 176px;
 	border: 8px solid #fff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
