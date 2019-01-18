@@ -75,7 +75,7 @@ a:active {
 	margin:0 10px;
 }
 .no-underline{
-	box-shadow: none;
+	box-shadow: 5px 10px #FFF;
 }
 .btn {
 	background-color: black;
