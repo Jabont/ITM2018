@@ -74,11 +74,6 @@ a:hover{
 .t-left{
 	text-align: left;
 }
-.t-left a{
-	text-align: left;
-	color: pink;
-}
 li{
 	margin-bottom: .5em;
-	color: pink;
 }
