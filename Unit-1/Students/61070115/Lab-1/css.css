@@ -86,6 +86,7 @@ a:hover{
 	letter-spacing: 1px;
 	transition: all .2s;
 	font-family: 'Cabin', sans-serif;
+	cursor:pointer;
 }
 .btn2 {
 	background-color: rgb(15, 14, 29);
@@ -98,6 +99,7 @@ a:hover{
 	letter-spacing: 1px;
 	transition: all .2s;
 	font-family: 'Cabin', sans-serif;
+	cursor:pointer;
 }
 .btn:hover{
 	letter-spacing: 5px;
@@ -171,3 +173,36 @@ li{
     	transform: translateY(-110vh);
 	}
 }
+
+/* So I tried to code animation for my submarine. */
+.submarine {
+	background-image: url("elements/submarine.png");
+	width: 7.5vh;
+	height: auto;
+  }
+  
+/* Dive Animation */
+@keyframes dive {
+	0% {
+	  transform: translateY(0vh) translateX(0) rotate(30deg);
+	}
+	25% { 
+	  transform: translateY(6.5vh) translateX(250px) rotate(20deg);
+	}
+	50% {
+	  transform: translateY(100px) translateX(500px);
+	}
+	75% {
+	  transform: translateY(50px) translateX(850px) rotate(-20deg);
+	}
+	100% {
+	  transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+	}
+  }
+  
+  /* Bubbles Animation */
+  @keyframes up {
+	100% {
+	  transform: translateY(-800px);
+	}
+  }
