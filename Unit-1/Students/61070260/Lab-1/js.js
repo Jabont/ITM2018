@@ -1,5 +1,5 @@
 const word = document.querySelector('#word').innerHTML;
-document.querySelector('#word').innerHTML = 'Hi!';
+document.querySelector('#word').innerHTML = 'Hello World!';
 let word_length = word.length;
 for (var i = 3; i < word_length; i++) {
 	let time = i*75;
