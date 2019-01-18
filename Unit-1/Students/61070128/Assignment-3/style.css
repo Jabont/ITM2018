@@ -1,11 +1,11 @@
 body{
-	background-color: black;
+	background-color: red;
 }
 .t-center{
 	text-align: center;
 }
 .cl-blue{
-	color: #2196F3;
+	color: #FF9933;
 }
 .upper{
 	text-transform: uppercase;
