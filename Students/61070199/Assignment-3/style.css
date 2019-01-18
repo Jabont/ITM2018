@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.t-center{
+    text-align: center;
+}
+.cl-blue{
+    color: #2196F3;
+}
+.upper{
+    text-transform: uppercase;
+}
+#welcome{
+    margin-top: 30vh;
+    animation: wel 1s infinite alternate;
+
+}
+@keyframes wel{
+    from{transform:scale(1) skewX(-15deg)}
+    to{transform:scale(1.5) skewX(15deg)}
+}
