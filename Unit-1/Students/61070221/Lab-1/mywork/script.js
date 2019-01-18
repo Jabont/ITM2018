@@ -1,1 +1,0 @@
-document.body.style.backgroundColor = prompt('Change Your Color, Default is Burlywood', 'burlywood');
