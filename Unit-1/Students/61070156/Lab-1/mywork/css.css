@@ -1,5 +1,4 @@
 body {
-	background: #F08080;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -22,8 +21,8 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
-	border-radius: 176px;
+	width: 400px;
+	border-radius: 400px;
 	border: 8px solid #fff;
 	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
