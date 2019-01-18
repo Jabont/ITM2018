@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background-image:url("wall.jpg");
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -29,12 +29,12 @@ img.profile {
 	transition:all .2s;
 }
 h1 {
-	color: #444444;
-	text-shadow: 0px 2px 0px #fff;
+	color: #fff;
+	text-shadow: 0px 2px 0px #000;
 }
 h3{
-	color: #828282;
-	text-shadow: 0px 2px 0px #fff;
+	color: #fff;
+	ur
 }
 img.profile:hover {
 	transform: rotate(20deg);
