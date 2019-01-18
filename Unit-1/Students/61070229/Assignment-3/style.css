@@ -12,7 +12,7 @@ body{
 }
 #welcome{
 	margin-top: 30vh;
-	animation: wel .5s infinite alternate;
+	animation: wel 1s infinite alternate;
 
 }
 @keyframes wel{
