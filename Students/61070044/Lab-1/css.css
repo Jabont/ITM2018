@@ -15,7 +15,7 @@ body {
     display: inline-block;
     box-shadow: 1px 0px 0px black;
     padding-right: .1em;
-    animation: pipe .3s infinite alternate;
+    animation: pipe: .5s infinite alternate;
 }
 @keyframes pipe{
 	from{box-shadow: 1px 0px 0px black;}
@@ -25,8 +25,8 @@ img.profile {
 	width: 176px;
 	border-radius: 176px;
 	border: 8px solid #fff;
-	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
-	transition:all .2s;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 1.16);
+	transition:all 15s;
 }
 h1 {
 	color: #444444;
@@ -37,7 +37,7 @@ h3{
 	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: rotate(360deg);
 }
 .bio{
 	line-height: 1.5;
@@ -58,7 +58,7 @@ a:hover{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
+	background-color: green;
 	color: white;
 	display: inline-block;
 	padding: .4em .8em;
