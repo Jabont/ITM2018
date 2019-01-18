@@ -1,5 +1,5 @@
 body{
-  background: url(pic/bg.jpg);
+  background: url(pic/bg.jpg) center fixed;
   background-size: cover;
   font-family: sans-serif;
   margin: 0;
