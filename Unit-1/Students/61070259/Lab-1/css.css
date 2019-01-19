@@ -73,7 +73,9 @@ a:hover{
 }
 .t-left{
 	text-align: left;
+	color: purple
 }
 li{
 	margin-bottom: .5em;
+	color: purple
 }
