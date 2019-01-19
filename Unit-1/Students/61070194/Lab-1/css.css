@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
+	background: url('BG.png') repeat-x 0 0 scroll;
 }
 #main {
 	display: flex;

@@ -22,22 +22,34 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
+	width: 200px;
 	border-radius: 176px;
 	border: 8px solid #fff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
-	transition:all .2s;
+	transition:all 2s;
+}
+img.profile:hover {
+	transform: rotate(360deg);
 }
 h1 {
 	color: #444444;
 	text-shadow: 0px 2px 0px #fff;
 }
 h3{
-	color: #828282;
+	color: black;
 	text-shadow: 0px 2px 0px #fff;
 }
+.mark{
+	color: black;
+	display: inline-block;
+	padding: .2em .2em;
+	border-radius: .25em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all .2s;
+}
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: rotate(2000deg);
 }
 .bio{
 	line-height: 1.5;
@@ -58,7 +70,7 @@ a:hover{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
+	background-color: red;
 	color: white;
 	display: inline-block;
 	padding: .4em .8em;
