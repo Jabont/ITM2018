@@ -3,6 +3,8 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
+	background-image: url("bg.jpg") ;
+	background-repeat: repeat ;
 }
 #main {
 	display: flex;
@@ -11,9 +13,8 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-#word {
+#head {
     display: inline-block;
-    box-shadow: 1px 0px 0px black;
     padding-right: .1em;
     animation: pipe .3s infinite alternate;
 }
@@ -37,7 +38,7 @@ h3{
 	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: scale(1.25);
 }
 .bio{
 	line-height: 1.5;
@@ -58,8 +59,8 @@ a:hover{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
-	color: white;
+	background-color: #ea9696;
+	color: black;
 	display: inline-block;
 	padding: .4em .8em;
 	border-radius: .25em;
