@@ -4,6 +4,13 @@ body {
 	font-family: sans-serif;
 	margin:0;
 }
+.web{
+  text-decoration: none;
+  color: dodgerblue;
+}
+.web:hover{
+  color: tomato;
+}
 #colorname{
 	color: aqua
 }
@@ -80,3 +87,6 @@ a:hover{
 li{
 	margin-bottom: .5em;
 }
+.seei{
+ 	color: dodgerblue;
+ }
