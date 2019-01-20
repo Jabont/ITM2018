@@ -30,7 +30,6 @@ img.profile {
 	transition:all .2s;
 }
 h1 {
-<<<<<<< HEAD
 	color: rgb(255, 150, 33);
 	text-shadow: 0px 2px 0px rgb(238, 107, 19);
 }
@@ -40,15 +39,11 @@ p {
 }
 h3{
 	color: rgb(255, 115, 126);
-
-=======
 	color: #fff;
 	text-shadow: 0px 2px 0px #000;
 }
 h3{
 	color: #fff;
-	ur
->>>>>>> 86d3f358b2027e55e08e643977af4ae45451df07
 }
 img.profile:hover {
 	transform: rotate(20deg);
