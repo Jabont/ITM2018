@@ -1,8 +1,13 @@
 body {
-    background: #fafafa;
+    background: url(https://img1.picmix.com/output/stamp/normal/7/9/7/8/1248797_ea02c.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
     text-align: center;
     font-family: sans-serif;
-    margin:0;
+    margin: 0;
 }
 
 #main {
@@ -30,7 +35,7 @@ img.profile {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    width: 200px;
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
     transition:all .2s;
 }

@@ -1,7 +1,7 @@
 const word = document.querySelector('#word').innerHTML;
 document.querySelector('#word').innerHTML = 'Hi!';
 let word_length = word.length;
-for (var i = 3; i < word_length; i++) {
+for (var i = 6; i < word_length; i++) {
 	let time = i*75;
 	let char = word[i];
 	setTimeout(function(){
