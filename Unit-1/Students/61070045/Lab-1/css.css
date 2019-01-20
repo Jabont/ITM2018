@@ -12,10 +12,10 @@ body {
 	align-items: center;
 }
 #word {
-    display: inline-block;
-    box-shadow: 1px 0px 0px black;
-    padding-right: .1em;
-    animation: pipe .3s infinite alternate;
+	display: inline-block;
+	box-shadow: 1px 0px 0px black;
+	padding-right: .1em;
+	animation: pipe .3s infinite alternate;
 }
 @keyframes pipe{
 	from{box-shadow: 1px 0px 0px black;}
@@ -36,6 +36,9 @@ h3{
 	color: #444444;
 }
 img.profile:hover {
+	transform: rotate(20deg);
+}
+img.icon:hover {
 	transform: rotate(20deg);
 }
 .bio{
@@ -75,4 +78,24 @@ a:hover{
 }
 li{
 	margin-bottom: .5em;
+}
+.snow {
+	position: absolute;
+	border-radius: 100%;
+	opacity: 0.25;
+}
+.rocket {
+	width: 75px;
+	height: 50px;
+	position: relative;
+	animation: moving 10s infinite;
+}
+
+@keyframes moving {
+	0% {
+		left: -180%;
+	}
+	100% {
+		left: 180%;
+	}
 }
