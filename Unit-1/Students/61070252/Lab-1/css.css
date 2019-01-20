@@ -1,5 +1,9 @@
 body {
-	background: #fafafa;
+	background-image: url("bg.png");
+  	background-repeat: no-repeat;
+  	background-position: right top;
+  	margin-right: 200px;
+  	background-attachment: fixed;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
