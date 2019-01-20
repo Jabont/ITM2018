@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background: #b6edb6;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -11,7 +11,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-#word {
+#word, #you {
     display: inline-block;
     box-shadow: 1px 0px 0px black;
     padding-right: .1em;
@@ -22,57 +22,78 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
-	border-radius: 176px;
+	width: 350px;
+	height: 600px;
+	border-radius: 100px;
 	border: 8px solid #fff;
-	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
-	transition:all .2s;
+	box-shadow: -3px 20px 8px rgba(0, 0, 2, 0.2);
+	transition:all 1s;
 }
-h1 {
-	color: #444444;
+img.one {
+	width: 500px;
+	height: 550px;
+	border-radius: 50px;
+	border: 10px solid #fff;
+	box-shadow: 10px 20px 10px rgba(0, 0, 2, 0.2);
+	transition:all 1s;
+}
+img.profile:hover, img.one:hover{
+	opacity: 0.9;
+	transform: scale(1.2,1.2);
+}
+h1{
+	color: #472c00;
 	text-shadow: 0px 2px 0px #fff;
 }
-h3{
-	color: #828282;
+h3, h4, p{
+	font-weight: bold;
+	color: #5e3a19;
 	text-shadow: 0px 2px 0px #fff;
 }
-img.profile:hover {
-	transform: rotate(20deg);
-}
-.bio{
-	line-height: 1.5;
+h3.bio, ul{
+	text-indent: 1;
+	margin-top: 2em;
 }
 a{
 	text-decoration: none;
-	color: #333;
-	box-shadow: 0px 1px 0px;
-}
-a:hover{
-	opacity: .5;
 }
 .icon{
 	display: inline-block;
-	margin:0 10px;
+	margin:0 20px;
 }
 .no-underline{
-	box-shadow: none;
-}
-.btn {
-	background-color: black;
-	color: white;
+	opacity: 0.2;
+	background-color: #fff;
 	display: inline-block;
-	padding: .4em .8em;
-	border-radius: .25em;
+	padding: .30em .45em;
+	border-radius: .9em;
+}
+.no-underline:hover{
+	opacity: 1;
+	transition: all .9s;
+	transform: scale(1.5,1.5);
+}
+.button {
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 1px;
-	transition: all .2s;
-}
-.btn:hover{
+	background-color: #6d4420;
+	color: #f9f9d9;
+	display: inline-block;
+	padding: .45em .95em;
+	border-radius: .30em;
+	opacity: .5;
 	letter-spacing: 5px;
 }
+.button:hover, a:hover{
+	opacity: .8;
+	transition: all .5s;
+	letter-spacing: 10px;
+	transform: scale(2,2)
+}
 .t-left{
+	font-weight: bold;
 	text-align: left;
+	text-shadow: 3px 2px 1px #fff;
 }
 li{
 	margin-bottom: .5em;
