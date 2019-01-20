@@ -16,6 +16,6 @@ body{
 
 }
 @keyframes wel{
-	from{transform:scale(1) skewX(-15deg)}
+	from{transform:scale(1) skewX(-20deg)}
 	to{transform:scale(1.5) skewX(15deg)}
 }
