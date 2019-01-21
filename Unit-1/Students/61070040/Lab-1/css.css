@@ -34,10 +34,13 @@ img.profile {
 h1 {
 	color: #ffffff;
 	text-shadow: 0px 3px 0px black;
+	margin: 10px;
 }
 h3{
+	font-size: 23px;
 	color: #ffffff;
 	text-shadow: 0px 2px 0px black;
+	margin: 15px;
 }
 img.profile:hover {
 	transform: rotate(10deg);
@@ -45,9 +48,10 @@ img.profile:hover {
 .bio{
 	color: white;
 	text-shadow: 0px 2px 0px black;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 	margin: 5px;
+	font-size: 20px;
 }
 a{
 	text-decoration: none;
@@ -89,6 +93,7 @@ a:hover{
 .t-left{
 	text-align: left;
 	font-family: 'Itim', cursive;
+	font-size: 23px;
 }
 li{
 	margin-bottom: .5em;
