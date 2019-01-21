@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Itim');
+
 body {
 	background-image: url("image/background.jpg");
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Baloo', cursive;
 	margin:0;
 }
 #main {
@@ -117,8 +119,6 @@ li {
 	height: 100px;
 }
 #load hr{
-	border: 0;
-	margin: 0;
 	width: 40%;
 	height: 40%;
 	position: absolute;
