@@ -16,9 +16,8 @@ function myFuncalert() {
 }
 
 //My Snow
-const numSnows = 100;
 const snows = [];
-for (let i = 0; i < numSnows; i++) {
+for (let i = 0; i < 100; i++) {
 	let snow = document.createElement("div");
 	snow.classList.add("snow");
 	snow.style.background = "#FFFFFF";
@@ -51,9 +50,9 @@ snows.forEach((elementsnow, number) => {
 });
 
 //Loading Page
-var myVar;
+var myTime;
 function myFunction() {
-	myVar = setTimeout(showPage, 500);
+	myTime = setTimeout(showPage, 500);
 }
 function showPage() {
 	document.getElementById("load").style.display = "none";
