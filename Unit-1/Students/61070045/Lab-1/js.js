@@ -53,7 +53,7 @@ snows.forEach((elementsnow, number) => {
 //Loading Page
 var myVar;
 function myFunction() {
-	myVar = setTimeout(showPage, 750);
+	myVar = setTimeout(showPage, 500);
 }
 function showPage() {
 	document.getElementById("load").style.display = "none";
