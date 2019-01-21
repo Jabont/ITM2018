@@ -45,6 +45,7 @@ img.profile:hover {
 	transform: rotate(20deg);
 }
 .bio{
+	color: #330000;
 	line-height: 1.5;
 }
 a{
