@@ -1,9 +1,20 @@
 body {
-	background: #fafafa;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
+		/* The image used */
+		background-image: url("https://i.imgur.com/FwCwsQ1.png");
+  
+		/* Full height */
+		height: 100%; 
+	  
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
 }
+
 #main {
 	display: flex;
 	width: 100vw;
@@ -29,24 +40,25 @@ img.profile {
 	transition:all .2s;
 }
 h1 {
-	color: #444444;
-	text-shadow: 0px 2px 0px #fff;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 h3{
-	color: #828282;
-	text-shadow: 0px 2px 0px #fff;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 img.profile:hover {
 	transform: rotate(20deg);
 }
 .bio{
+	color: #ffffff;
 	line-height: 1.5;
 	font-weight: bold;
 	font-size: large;
 }
 a{
 	text-decoration: none;
-	color: #333;
+	color: #FFF0F5;
 	box-shadow: 0px 1px 0px;
 }
 a:hover{
@@ -54,14 +66,16 @@ a:hover{
 }
 .icon{
 	display: inline-block;
-	margin:0 10px;
+		margin:0 10px;
+	width: 60px;
+	border-radius: 60px;
 }
 .no-underline{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	display: inline-block;
 	padding: .4em .8em;
 	border-radius: .25em;

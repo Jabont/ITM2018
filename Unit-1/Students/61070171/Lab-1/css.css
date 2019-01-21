@@ -1,0 +1,46 @@
+body {
+	background: #fafafa;
+	text-align: center;
+	font-family: sans-serif;
+	margin:0;
+}
+#main {
+	display: flex;
+	width: 100vw;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+#word {
+    display: inline-block;
+    box-shadow: 1px 0px 0px black;
+    padding-right: .1em;
+    animation: pipe .3s infinite alternate;
+}
+
+img.profile {
+	width: 200px;
+}
+h1 {
+	color: #444444;
+	text-shadow: 0px 2px 0px #fff;
+}
+h3{
+	color: #828282;
+	text-shadow: 0px 2px 0px #fff;
+}
+
+
+a{
+	text-decoration: none;
+	color: #333;
+	box-shadow: 0px 1px 0px;
+}
+a:hover{
+	opacity: .5;
+}
+.icon{
+	display: inline-block;
+	margin:0 10px;
+}
+
