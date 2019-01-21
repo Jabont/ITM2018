@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Itim');
+
 body {
 	background-image: url("bg.jpg");
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
+	font-family: 'Baloo', cursive;
 }
 #main {
 	display: flex;
@@ -85,6 +88,7 @@ a:hover{
 }
 .t-left{
 	text-align: left;
+	font-family: 'Itim', cursive;
 }
 li{
 	margin-bottom: .5em;
