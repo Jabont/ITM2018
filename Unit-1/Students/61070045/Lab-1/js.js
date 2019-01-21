@@ -23,8 +23,8 @@ for (let i = 0; i < numSnows; i++) {
 	let snow = document.createElement("div");
 	snow.classList.add("snow");
 	snow.style.background = "#FFFFFF";
-	snow.style.left = `${Math.floor(Math.random() * 100)}vw`;
-	snow.style.top = `${Math.floor(Math.random() * 100)}vh`;
+	snow.style.left = `${Math.floor(Math.random()*100)}vw`;
+	snow.style.top = `${Math.floor(Math.random()*100)}vh`;
 	snow.style.transform = `scale(${Math.random()})`;
 	snow.style.width = `${Math.random()}em`;
 	snow.style.height = snow.style.width;
@@ -34,17 +34,16 @@ for (let i = 0; i < numSnows; i++) {
 }
 snows.forEach((elementsnow, number) => {
 	let to = {
-		x: Math.random() * (number % 2 === 0 ? -11 : 11),
-		y: Math.random() * 12
+		x: Math.random()*(number%2 === 0 ? -11 : 11),
+		y: Math.random()*12
 	}
-
 	let animation = elementsnow.animate(
 		[
 			{ transform: "translate(0, 0)" },
-			{ transform: `translate(${to.x}rem, ${to.y}rem)` }
+			{ transform: `translate(${to.x}em, ${to.y}em)` }
 		],
 		{
-		duration: (Math.random() + 1) * 2000,
+		duration: (Math.random() + 1)*2000,
 		direction: "alternate",
 		fill: "both",
 		iterations: Infinity,
