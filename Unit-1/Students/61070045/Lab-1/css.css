@@ -1,25 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Itim');
+
 body {
-	background-image: url("background.jpg");
+	background-image: url("image/background.jpg");
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Baloo', cursive;
 	margin:0;
 }
 #main {
-	display: flex;
+	display: none;
 	width: 100vw;
 	min-height: 100vh;
 	justify-content: center;
 	align-items: center;
 }
 #word {
-    display: inline-block;
-    box-shadow: 1px 0px 0px black;
-    padding-right: .1em;
-    animation: pipe .3s infinite alternate;
+	display: inline-block;
+	box-shadow: 1px 0px 0px black;
+	padding-right: .1em;
+	animation: pipe .3s infinite alternate;
 }
-@keyframes pipe{
-	from{box-shadow: 1px 0px 0px black;}
-	from{box-shadow: 1px 0px 0px white;}
+@keyframes pipe {
+	from{
+		box-shadow: 1px 0px 0px black;
+	}
+	from{
+		box-shadow: 1px 0px 0px white;
+	}
 }
 img.profile {
 	width: 176px;
@@ -32,28 +38,36 @@ h1 {
 	color: #000000;
 	text-shadow: 0px 2px 0px #fff;
 }
-h3{
+h3 {
 	color: #444444;
 }
 img.profile:hover {
 	transform: rotate(20deg);
 }
-.bio{
+img.icon:hover {
+	transition: all .3s;
+	transform: rotate(25deg);
+	cursor: url("image/snowman.png"), auto;
+}
+.sclick {
+	cursor: url("image/click.png"), auto;
+}
+.bio {
 	line-height: 1.5;
 }
-a{
+a {
 	text-decoration: none;
 	color: #333;
 	box-shadow: 0px 1px 0px;
 }
-a:hover{
+a:hover {
 	opacity: .5;
 }
-.icon{
+.icon {
 	display: inline-block;
-	margin:0 10px;
+	margin: 0 10px;
 }
-.no-underline{
+.no-underline {
 	box-shadow: none;
 }
 .btn {
@@ -67,12 +81,80 @@ a:hover{
 	letter-spacing: 1px;
 	transition: all .2s;
 }
-.btn:hover{
+.btn:hover {
 	letter-spacing: 5px;
+	cursor: url("image/click.png"), auto;
 }
-.t-left{
+.t-left {
 	text-align: left;
 }
-li{
+li {
 	margin-bottom: .5em;
+}
+.snow {
+	position: absolute;
+	border-radius: 100%;
+	opacity: 0.25;
+}
+.rocket {
+	width: 75px;
+	height: 50px;
+	position: relative;
+	animation: moving 10s infinite;
+}
+@keyframes moving {
+	0% {
+		left: -180%;
+	}
+	100% {
+		left: 180%;
+	}
+}
+#load{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100px;
+	height: 100px;
+}
+#load hr{
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	animation:spin 2s ease infinite;
+}
+#load :nth-child(1){
+	background: #FFFFFF;
+	opacity: 0.5;
+	animation-delay: -1.5s;
+}
+#load :nth-child(2){
+	background: #000000;
+	opacity: 0.5;
+	animation-delay: -1s;
+}
+#load :nth-child(3){
+	background: #444444;
+	opacity: 0.5;
+	animation-delay: -0.5s;
+}
+#load :nth-child(4){
+	background: #DCDCDC;
+	opacity: 0.5;
+	animation-delay: 0s;
+}
+@keyframes spin{
+	0%, 100%{
+		transform: translate(0);
+	}
+	25%{
+		transform: translate(160%);
+	}
+	50%{
+		transform: translate(160%, 160%);
+	}
+	75%{
+		transform: translate(0, 160%);
+	}
 }
