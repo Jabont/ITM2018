@@ -18,7 +18,6 @@ function myFuncalert() {
 //My Snow
 const numSnows = 100;
 const snows = [];
-
 for (let i = 0; i < numSnows; i++) {
 	let snow = document.createElement("div");
 	snow.classList.add("snow");
@@ -28,7 +27,6 @@ for (let i = 0; i < numSnows; i++) {
 	snow.style.transform = `scale(${Math.random()})`;
 	snow.style.width = `${Math.random()}em`;
 	snow.style.height = snow.style.width;
-
 	snows.push(snow);
 	document.body.append(snow);
 }

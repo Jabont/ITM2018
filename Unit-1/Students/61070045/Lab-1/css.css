@@ -1,5 +1,5 @@
 body {
-	background-image: url("background.jpg");
+	background-image: url("image/background.jpg");
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -17,7 +17,7 @@ body {
 	padding-right: .1em;
 	animation: pipe .3s infinite alternate;
 }
-@keyframes pipe{
+@keyframes pipe {
 	from{box-shadow: 1px 0px 0px black;}
 	from{box-shadow: 1px 0px 0px white;}
 }
@@ -32,31 +32,36 @@ h1 {
 	color: #000000;
 	text-shadow: 0px 2px 0px #fff;
 }
-h3{
+h3 {
 	color: #444444;
 }
 img.profile:hover {
 	transform: rotate(20deg);
 }
 img.icon:hover {
-	transform: rotate(20deg);
+	transition: all .3s;
+	transform: rotate(25deg);
+	cursor: url("image/snowman.png"), auto;
 }
-.bio{
+.sclick {
+	cursor: url("image/click.png"), auto;
+}
+.bio {
 	line-height: 1.5;
 }
-a{
+a {
 	text-decoration: none;
 	color: #333;
 	box-shadow: 0px 1px 0px;
 }
-a:hover{
+a:hover {
 	opacity: .5;
 }
-.icon{
+.icon {
 	display: inline-block;
 	margin:0 10px;
 }
-.no-underline{
+.no-underline {
 	box-shadow: none;
 }
 .btn {
@@ -70,13 +75,14 @@ a:hover{
 	letter-spacing: 1px;
 	transition: all .2s;
 }
-.btn:hover{
+.btn:hover {
 	letter-spacing: 5px;
+	cursor: url("image/click.png"), auto;
 }
-.t-left{
+.t-left {
 	text-align: left;
 }
-li{
+li {
 	margin-bottom: .5em;
 }
 .snow {
@@ -90,7 +96,6 @@ li{
 	position: relative;
 	animation: moving 10s infinite;
 }
-
 @keyframes moving {
 	0% {
 		left: -180%;
