@@ -5,7 +5,7 @@ body {
 	margin:0;
 }
 #main {
-	display: flex;
+	display: none;
 	width: 100vw;
 	min-height: 100vh;
 	justify-content: center;
@@ -18,8 +18,12 @@ body {
 	animation: pipe .3s infinite alternate;
 }
 @keyframes pipe {
-	from{box-shadow: 1px 0px 0px black;}
-	from{box-shadow: 1px 0px 0px white;}
+	from{
+		box-shadow: 1px 0px 0px black;
+	}
+	from{
+		box-shadow: 1px 0px 0px white;
+	}
 }
 img.profile {
 	width: 176px;
@@ -102,5 +106,54 @@ li {
 	}
 	100% {
 		left: 180%;
+	}
+}
+#load{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width:100px;
+	height:100px;
+}
+#load hr{
+	border:0;
+	margin:0;
+	width:40%;
+	height:40%;
+	position:absolute;
+	animation:spin 2s ease infinite;
+}
+#load :first-child{
+	background:#FFFFFF;
+	opacity: 0.5;
+	animation-delay:-1.5s;
+}
+#load :nth-child(2){
+	background:#000000;
+	opacity: 0.5;
+	animation-delay:-1s;
+}
+#load :nth-child(3){
+	background:#444444;
+	opacity: 0.5;
+	animation-delay:-0.5s;
+}
+#load :last-child{
+	background:#DCDCDC;
+	opacity: 0.5;
+}
+@keyframes spin{
+	0%,100%{
+		transform:translate(0);
+	}
+	25%{
+		transform:translate(160%);
+	}
+	50%{
+		transform:translate(160%, 160%);
+	}
+	75%{
+		transform:translate(0, 160%);
 	}
 }
