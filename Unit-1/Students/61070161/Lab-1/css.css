@@ -17,18 +17,18 @@ body {
     animation: pipe .3s infinite alternate;
 }
 @keyframes pipe{
-	from{box-shadow: 1px 0px 0px black;}
-	from{box-shadow: 1px 0px 0px white;}
+	from{box-shadow: 2px 0px 0px black;}
+	from{box-shadow: 2px 0px 0px white;}
 }
 img.profile {
 	width: 176px;
 	border-radius: 176px;
-	border: 8px solid #FFC0CB;
+	border: 8px solid #E0FFFF;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
-	color: #CD5C5C;
+	color: #FFF0F5;
 	text-shadow: 0px 2px 0px #000000;
 }
 h3{
@@ -39,8 +39,9 @@ img.profile:hover {
 	transform: rotate(20deg);
 }
 .bio{
-	color: #E0FFFF;
+	color: #FFF0F5;
 	line-height: 1.5;
+	box-shadow: 0px 1px 0px;
 }
 a{
 	text-decoration: none;
@@ -61,7 +62,7 @@ a:hover{
 }
 .btn {
 	background-color: black;
-	color: white;
+	color: #AFEEEE;
 	display: inline-block;
 	padding: .4em .8em;
 	border-radius: .25em;
@@ -75,9 +76,6 @@ a:hover{
 }
 .t-left{
 	text-align: left;
-}
-li{
-	margin-bottom: .5em;
 }
 li{
 	margin-bottom: .5em;
