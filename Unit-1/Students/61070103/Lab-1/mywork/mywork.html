@@ -4,26 +4,159 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jabont.com }*</title>
+	<title>Hansome.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- CODE ด้านล่างนี้ลองสังเกตเลข "200" หลัง r,g,b 
+ดูครับถ้าคุณลองเปลี่ยนเป็นค่าอื่นพื้นหลังก็จะเปลี่ยนสีแตกต่างไปจากเดิมครับ -->
 
+<script language="JavaScript">
+
+r=200;
+g=200;
+b=200;
+flag=0;
+t=new Array;
+o=new Array;
+d=new Array;
+
+function hex(a,c)
+{
+t[a]=Math.floor(c/16)
+o[a]=c%16
+switch (t[a])
+{
+case 10:
+t[a]='A';
+break;
+case 11:
+t[a]='B';
+break;
+case 12:
+t[a]='C';
+break;
+case 13:
+t[a]='D';
+break;
+case 14:
+t[a]='E';
+break;
+case 15:
+t[a]='F';
+break;
+default:
+break;
+}
+switch (o[a])
+{
+case 10:
+o[a]='A';
+break;
+case 11:
+o[a]='B';
+break;
+case 12:
+o[a]='C';
+break;
+case 13:
+o[a]='D';
+break;
+case 14:
+o[a]='E';
+break;
+case 15:
+o[a]='F';
+break;
+default:
+break;
+}
+}
+
+function ran(a,c)
+{
+if ((Math.random()>2/3||c==0)&&c<255)
+{
+c++
+d[a]=2;
+}
+else
+{
+if ((Math.random()<=1/2||c==255)&&c>0)
+{
+c--
+d[a]=1;
+}
+else d[a]=0;
+}
+return c
+}
+function do_it(a,c)
+{
+if ((d[a]==2&&c<255)||c==0)
+{
+c++
+d[a]=2
+}
+else
+if ((d[a]==1&&c>0)||c==255)
+{
+c--;
+d[a]=1;
+}
+if (a==3)
+{
+if (d[1]==0&&d[2]==0&&d[3]==0)
+flag=1
+}
+return c
+}
+function disco()
+{
+if (flag==0)
+{
+r=ran(1, r);
+g=ran(2, g);
+b=ran(3, b);
+hex(1,r)
+hex(2,g)
+hex(3,b)
+document.bgColor="#"+t[1]+o[1]+t[2]+o[2]+t[3]+o[3]
+flag=50
+}
+else
+{
+r=do_it(1, r)
+g=do_it(2,g)
+b=do_it(3,b)
+hex(1,r)
+hex(2,g)
+hex(3,b)
+document.bgColor="#"+t[1]+o[1]+t[2]+o[2]+t[3]+o[3]
+flag--
+}
+if (document.all)
+setTimeout('disco()',50)
+}
+//-->
+</script>
 </head>
-<body>
+
+<body onload="disco()">
 	<div id="main">
 		<div id="about_me">
-			<img src="" class="profile">
+			<img src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.0-9/48414314_1281752038642086_9070335892467482624_n.jpg?_nc_cat=104&_nc_ht=scontent.fbkk2-8.fna&oh=6090f2db10fc39b5775657fee1a4a02f&oe=5CBB5FD4" class="profile"></div>
 			<br>
-			<h1 id="word">Hi!, I'm Jabont</h1>
-			<p class="bio">Web Developer, Writer, and Designer in Bangkok, Thailand</p>
+			<h1 id="word">YAHOOO AM Nun</h1>
+			<p class="bio">I am pirate king</p>
 
-			<ul class="t-left">
-				<li><a href="https://codepen.io/iJabont/pen/OQwvxW">ไฟกระพริบ SVG</a></li>
-				<li><a href="https://codepen.io/iJabont/pen/JvKERb">ร้านไอติม มายมินท์</a></li>
-				<li><a href="https://codepen.io/iJabont/pen/PRzvpv">ตู้ปลาดำผุดดำว่าย</a></li>
-			</ul>
+			<a href="https://codepen.io/iJabont/pen/OQwvxW">ไฟกระพริบ SVG##(P.Jabon)</a><br><br>
+			<a href="https://codepen.io/iJabont/pen/JvKERb">ร้านไอติม มายมินท์##(P.Jabon)</a><br><br>
+			<a href="https://codepen.io/iJabont/pen/PRzvpv">ตู้ปลาดำผุดดำว่าย##(P.Jabon)</a>
 			<br><br>
-			<a href="" title="see more" class="btn">View my profile</a>
+			<a href="https://codepen.io/Nun892/" title="see more" class="btn">View my profile</a>
 			<br><br>
 		</div>
 	</div>
+
 </body>
+
 </html>

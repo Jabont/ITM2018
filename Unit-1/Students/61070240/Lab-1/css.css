@@ -37,7 +37,7 @@ h3{
 	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: rotate(360deg);
 }
 .bio{
 	line-height: 1.5;
