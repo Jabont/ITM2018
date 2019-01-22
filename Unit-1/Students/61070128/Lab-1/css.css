@@ -48,8 +48,9 @@ p{
 }
 a{
 	text-decoration: none;
-	color: #333;
-	box-shadow: 0px 1px 0px;
+	text-shadow: 0px 1px 0px #ff6600;
+	color: #663300;
+	box-shadow: 0px 4px 0px;
 }
 a:hover{
 	opacity: .5;

@@ -13,6 +13,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	cursor: url("image/default.png"), auto;
+	animation: show_animation 1s;
 }
 #word {
 	display: inline-block;
@@ -91,6 +92,14 @@ a:hover {
 }
 li {
 	margin-bottom: .5em;
+}
+@keyframes show_animation {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 .snow {
 	position: absolute;
