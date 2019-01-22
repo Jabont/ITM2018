@@ -10,15 +10,9 @@ for (var i = 3; i < word_length; i++) {
 	},600+time);
 }
 
-//coming soon alert
-function myFuncalert() {
-	alert("Coming Soon!!");
-}
-
 //My Snow
-const numSnows = 100;
 const snows = [];
-for (let i = 0; i < numSnows; i++) {
+for (let i = 0; i < 100; i++) {
 	let snow = document.createElement("div");
 	snow.classList.add("snow");
 	snow.style.background = "#FFFFFF";
@@ -41,7 +35,7 @@ snows.forEach((elementsnow, number) => {
 			{ transform: `translate(${to.x}em, ${to.y}em)` }
 		],
 		{
-		duration: (Math.random() + 1)*2000,
+		duration: (Math.random() + 1)*5000,
 		direction: "alternate",
 		fill: "both",
 		iterations: Infinity,
@@ -51,9 +45,9 @@ snows.forEach((elementsnow, number) => {
 });
 
 //Loading Page
-var myVar;
+var myTime;
 function myFunction() {
-	myVar = setTimeout(showPage, 500);
+	myTime = setTimeout(showPage, 500);
 }
 function showPage() {
 	document.getElementById("load").style.display = "none";

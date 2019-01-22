@@ -1,8 +1,11 @@
 body {
 	background: #fafafa;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: Monospace;
 	margin:0;
+}
+div {
+  background-color: lightblue;
 }
 #main {
 	display: flex;
@@ -22,18 +25,18 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 200px;
-	border-radius: 200px;
-	border: 8px red;
+	width: 216px;
+	border-radius: 216px;
+	border: 8px solid #fff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
-	color: #444444;
+	color: #555555;
 	text-shadow: 0px 2px 0px #fff;
 }
 h3{
-	color: #828282;
+	color: #554423;
 	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
