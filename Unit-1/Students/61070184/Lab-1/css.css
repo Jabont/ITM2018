@@ -52,6 +52,7 @@ img.profile:hover {
 }
 .bio{
 	color: #ffffff;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	line-height: 1.5;
 	font-weight: bold;
 	font-size: large;
@@ -66,9 +67,10 @@ a:hover{
 }
 .icon{
 	display: inline-block;
-		margin:0 10px;
-	width: 60px;
-	border-radius: 60px;
+	margin:0 10px;
+	width: 50px;
+	border-radius: 50px;
+	
 }
 .no-underline{
 	box-shadow: none;
