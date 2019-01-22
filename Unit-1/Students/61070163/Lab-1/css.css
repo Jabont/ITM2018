@@ -1,7 +1,11 @@
 body {
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	margin:0;
+	background-size: 100%;
+}
+#colorname{
+	color: aqua
 }
 #main {
 	display: flex;
@@ -21,30 +25,28 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
+	width: 200px;
 	border-radius: 176px;
-	border: 8px solid #FFC0CB;
+	border: 8px solid #FDF5E6;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
-	color: #CD5C5C;
-	text-shadow: 0px 2px 0px #000000;
+	color: #FF6699;
+	text-shadow: 0px 5px 3px black;
 }
 h3{
-	color: #FFF0F5;
-	text-shadow: 0px 2px 0px #000000;
+	color: black;
 }
 img.profile:hover {
 	transform: rotate(20deg);
 }
 .bio{
-	color: #E0FFFF;
 	line-height: 1.5;
 }
 a{
 	text-decoration: none;
-	color: #F5FFFA;
+	color: black;
 	box-shadow: 0px 1px 0px;
 }
 a:hover{
@@ -53,15 +55,13 @@ a:hover{
 .icon{
 	display: inline-block;
 	margin:0 10px;
-	width: 60px;
-	border-radius: 60px;
 }
 .no-underline{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
-	color: white;
+	background-color: #009966;
+	color: black;
 	display: inline-block;
 	padding: .4em .8em;
 	border-radius: .25em;
@@ -75,9 +75,6 @@ a:hover{
 }
 .t-left{
 	text-align: left;
-}
-li{
-	margin-bottom: .5em;
 }
 li{
 	margin-bottom: .5em;
