@@ -1,5 +1,7 @@
 body {
-	background: #fafafa;
+	background-color: rgb(252, 218, 242);
+	/* background: #fafafa; */
+	background-image: url("image.gif");
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;

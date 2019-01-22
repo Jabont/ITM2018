@@ -1,9 +1,5 @@
 body {
-	position: absolute;
-  	top: 20%;
-	background-image: url('1.png');
-  	background-size: cover;
-
+	background: #fafafa;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -26,9 +22,8 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	text-indent: 1px;
-	width: 176px;
-	border-radius: 176px;
+	width: 190px;
+	border-radius: 175px;
 	border: 8px solid #fff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
@@ -42,11 +37,9 @@ h3{
 	text-shadow: 0px 2px 0px #fff;
 }
 img.profile:hover {
-	transform: rotate(20deg);
+	transform: rotate(200deg);
 }
 .bio{
-	color: #330000;
-	font-weight : bold;
 	line-height: 1.5;
 }
 a{
