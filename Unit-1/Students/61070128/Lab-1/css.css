@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background: #ffff99;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -22,22 +22,26 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
-	width: 176px;
-	border-radius: 176px;
+	width: 220px;
+	border-radius: 220px;
 	border: 8px solid #fff;
-	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
 	color: #444444;
-	text-shadow: 0px 2px 0px #fff;
+	text-shadow: 0px 2px 0px #ff6600;
 }
 h3{
 	color: #828282;
-	text-shadow: 0px 2px 0px #fff;
+	text-shadow: 0px 2px 0px #ff6600;
 }
 img.profile:hover {
 	transform: rotate(20deg);
+}
+p{
+	color: #330000;
+	text-shadow: 0px 2px 0px #ff6600;
 }
 .bio{
 	line-height: 1.5;
