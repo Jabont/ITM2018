@@ -1,7 +1,7 @@
 body {
 	background: #fafafa;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: Helvetica;
 	margin:0;
 }
 #main {
@@ -72,7 +72,7 @@ a:hover{
 	letter-spacing: 5px;
 }
 .t-left{
-	text-align: left;
+	text-align: center;
 }
 li{
 	margin-bottom: .5em;
