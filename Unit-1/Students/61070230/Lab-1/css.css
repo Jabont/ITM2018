@@ -1,6 +1,7 @@
 body {
+	background-color: #ffa7cc;
 	text-align: center;
-	font-family: 'Boonjod', cursive;
+	font-family: 'Quicksand', sans-serif;
 	margin:0;
 }
 #main {
@@ -75,9 +76,4 @@ a:hover{
 }
 li{
 	margin-bottom: .5em;
-}
-
-body{
-	background-color: #ffa7cc;
-
 }
