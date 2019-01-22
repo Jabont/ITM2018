@@ -1,6 +1,6 @@
 body {
 	position: absolute;
-  	top: 37%;
+  	top: 40%;
 	background-image: url('1.png');
   	background-size: cover;
 
@@ -46,6 +46,7 @@ img.profile:hover {
 }
 .bio{
 	color: #330000;
+	font-weight : bold;
 	line-height: 1.5;
 }
 a{
