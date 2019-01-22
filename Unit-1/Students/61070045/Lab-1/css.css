@@ -12,6 +12,7 @@ body {
 	min-height: 100vh;
 	justify-content: center;
 	align-items: center;
+	cursor: url("image/default.png"), auto;
 }
 #word {
 	display: inline-block;
