@@ -132,6 +132,8 @@ li {
 	width: 40%;
 	height: 40%;
 	position: absolute;
+	border: 4px solid #000000;
+	border-radius: 25%;
 	animation:spin 2s ease infinite;
 }
 #load :nth-child(1){
