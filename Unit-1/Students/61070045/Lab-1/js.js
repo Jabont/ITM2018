@@ -10,11 +10,6 @@ for (var i = 3; i < word_length; i++) {
 	},600+time);
 }
 
-//coming soon alert
-function myFuncalert() {
-	alert("Coming Soon!!");
-}
-
 //My Snow
 const snows = [];
 for (let i = 0; i < 100; i++) {
@@ -40,7 +35,7 @@ snows.forEach((elementsnow, number) => {
 			{ transform: `translate(${to.x}em, ${to.y}em)` }
 		],
 		{
-		duration: (Math.random() + 1)*2000,
+		duration: (Math.random() + 1)*5000,
 		direction: "alternate",
 		fill: "both",
 		iterations: Infinity,
