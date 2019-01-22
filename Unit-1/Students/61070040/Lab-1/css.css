@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Itim');
+
 body {
 	background-image: url("bg.jpg");
+	background-color: grey;
+	background-size:cover;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Baloo', cursive;
 	margin:0;
+	animation: fadein 2s;
 }
 #main {
 	display: flex;
@@ -24,17 +29,20 @@ body {
 img.profile {
 	width: 176px;
 	border-radius: 176px;
-	border: 5px solid #fff;
+	border: 5px solid #ffffff;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
 	color: #ffffff;
 	text-shadow: 0px 3px 0px black;
+	margin: 10px;
 }
 h3{
+	font-size: 23px;
 	color: #ffffff;
 	text-shadow: 0px 2px 0px black;
+	margin: 15px;
 }
 img.profile:hover {
 	transform: rotate(10deg);
@@ -42,9 +50,10 @@ img.profile:hover {
 .bio{
 	color: white;
 	text-shadow: 0px 2px 0px black;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 	margin: 5px;
+	font-size: 20px;
 }
 a{
 	text-decoration: none;
@@ -85,8 +94,15 @@ a:hover{
 }
 .t-left{
 	text-align: left;
+	font-family: 'Itim', cursive;
+	font-size: 23px;
 }
 li{
 	margin-bottom: .5em;
 	color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

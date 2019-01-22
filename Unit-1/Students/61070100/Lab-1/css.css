@@ -1,5 +1,9 @@
 body {
-	background: #fafafa;
+	position: absolute;
+  	top: 35%;
+	background-image: url('1.png');
+  	background-size: cover;
+
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -22,6 +26,7 @@ body {
 	from{box-shadow: 1px 0px 0px white;}
 }
 img.profile {
+	text-indent: 1px;
 	width: 176px;
 	border-radius: 176px;
 	border: 8px solid #fff;
@@ -40,6 +45,8 @@ img.profile:hover {
 	transform: rotate(20deg);
 }
 .bio{
+	color: #330000;
+	font-weight : bold;
 	line-height: 1.5;
 }
 a{
