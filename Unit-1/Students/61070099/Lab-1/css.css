@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background: center;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -12,6 +12,7 @@ body {
 	align-items: center;
 }
 #word {
+	color: #FFCC33;
     display: inline-block;
     box-shadow: 1px 0px 0px black;
     padding-right: .1em;
