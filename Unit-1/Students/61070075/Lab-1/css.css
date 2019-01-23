@@ -1,0 +1,93 @@
+body {
+	background: black;
+	text-align: center;
+	font-family: sans-serif;
+	margin:0;
+}
+#colorname{
+	color: rgb(216, 42, 42);
+}
+#main {
+	display: block;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+#word {
+    display: inline-block;
+    padding-right: .1em;
+    animation: pipe .3s infinite alternate;
+}
+@keyframes pipe{
+	from{box-shadow: 1px 0px 0px rgb(255, 255, 255);}
+	from{box-shadow: 1px 0px 0px white;}
+}
+img.profile {
+	width: 176px;
+	border-radius: 176px;
+	border: 8px solid #fff;
+	box-shadow: 3px 5px 8000px rgb(99, 98, 98);
+	transition:all 3s;
+}
+h1 {
+	color: #ffffff;
+	text-shadow: 0px 0px 20px rgb(99, 98, 98);
+}
+h3{
+	color: #ffffff;
+	text-shadow: 0px 2px 20px rgb(99, 98, 98);
+}
+img.profile:hover {
+	transform: rotate(500deg);
+}
+.bio{
+	line-height: 1.5;
+	color: aliceblue;
+	font-size: 20px;
+	text-shadow: 0px 2px 20px rgb(99, 98, 98);
+}
+a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-shadow: 3px 2px 20px rgb(71, 28, 28);
+	box-shadow: 0px 1px 0px;
+}
+a:hover{
+	opacity: .5;
+}
+.icon{
+	display: inline-block;
+	margin:0 5px;
+}
+.no-underline{
+	box-shadow: none;
+}
+.btn {
+	background-color: rgb(255, 255, 255);
+	color: rgb(100, 100, 100);
+	display: inline-block;
+	padding: .4em .8em;
+	border-radius: .25em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all .2s;
+}
+.btn:hover{
+	letter-spacing: 2px;
+}
+.t-left{
+	text-align: left;
+}
+li{
+	align-content: center;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.information{
+	color: #fff;
+	display: inline-block;
+}

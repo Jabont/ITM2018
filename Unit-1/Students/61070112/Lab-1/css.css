@@ -1,5 +1,5 @@
 body {
-	background: #fafafa;
+	background: #FAF0E6;
 	text-align: center;
 	font-family: sans-serif;
 	margin:0;
@@ -33,8 +33,11 @@ h1 {
 	text-shadow: 0px 2px 0px #fff;
 }
 h3{
-	color: #828282;
+	color: #B22222;
 	text-shadow: 0px 2px 0px #fff;
+}
+p{
+	color: #CD5C5C;
 }
 img.profile:hover {
 	transform: rotate(20deg);
@@ -58,7 +61,7 @@ a:hover{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
+	background-color: #8B4513;
 	color: white;
 	display: inline-block;
 	padding: .4em .8em;

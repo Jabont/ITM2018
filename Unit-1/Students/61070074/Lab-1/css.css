@@ -1,8 +1,8 @@
 body {
-	background: #fafafa;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	margin:0;
+	background-size: 100%;
 }
 #main {
 	display: flex;
@@ -24,17 +24,17 @@ body {
 img.profile {
 	width: 176px;
 	border-radius: 176px;
-	border: 8px solid #fff;
+	border: 2px solid #B0C4DE;
 	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
 	transition:all .2s;
 }
 h1 {
-	color: #444444;
-	text-shadow: 0px 2px 0px #fff;
+	color: #FFE4C4;
+	text-shadow: 1px 1px 5px #fff;
 }
 h3{
-	color: #828282;
-	text-shadow: 0px 2px 0px #fff;
+	color: #FFDAB9;
+	text-shadow: 1px 0px 30px #fff;
 }
 img.profile:hover {
 	transform: rotate(20deg);
@@ -53,12 +53,13 @@ a:hover{
 .icon{
 	display: inline-block;
 	margin:0 10px;
+	size: 16x16;
 }
 .no-underline{
 	box-shadow: none;
 }
 .btn {
-	background-color: black;
+	background-color: #808080;
 	color: white;
 	display: inline-block;
 	padding: .4em .8em;
@@ -67,6 +68,7 @@ a:hover{
 	font-weight: bold;
 	letter-spacing: 1px;
 	transition: all .2s;
+	text-shadow: 1px 20px 20px black;
 }
 .btn:hover{
 	letter-spacing: 5px;
@@ -76,4 +78,15 @@ a:hover{
 }
 li{
 	margin-bottom: .5em;
+}
+p{
+	color: #DCDCDC;
+	text-shadow: 2px 2px 3px black;
+}
+li{
+	color: #DCDCDC;
+}
+p.work{
+	color: #F8F8FF;
+	text-shadow: 10px 4px 20px #fff;
 }
