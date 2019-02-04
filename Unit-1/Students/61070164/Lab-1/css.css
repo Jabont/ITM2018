@@ -11,6 +11,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 #word {
     display: inline-block;
     box-shadow: 1px 0px 0px black;
